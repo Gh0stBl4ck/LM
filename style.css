@@ -4,7 +4,7 @@ body {
     font-family: 'Great Vibes', sans-serif;
     background-color: #000;
     color: #fff;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
 }
 
