@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I LOVE YOU </title> 
+  <link rel="icon" href="./img/icon.png" type="icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Ojuju:wght@200..800&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="carousel-container">
+    <div class="carousel">
+      <img class="carousel-img" src="./img/img1.jpg" alt="Imagem 1">
+      <img class="carousel-img" src="./img/img2.jpg" alt="Imagem 2">
+      <img class="carousel-img" src="./img/img3.jpg" alt="Imagem 3">
+      <img class="carousel-img" src="./img/img4.jpg" alt="Imagem 4">
+      <img class="carousel-img" src="./img/img5.jpg" alt="Imagem 5">
+      <img class="carousel-img" src="./img/img6.jpg" alt="Imagem 6">
+    </div>
+
+  </div>
+  
+  <div class="dots">
+    <span class="dot active" onclick="changeSlide(0)"></span>
+    <span class="dot" onclick="changeSlide(1)"></span>
+    <span class="dot" onclick="changeSlide(2)"></span>
+    <span class="dot" onclick="changeSlide(3)"></span>
+    <span class="dot" onclick="changeSlide(4)"></span>
+    <span class="dot" onclick="changeSlide(5)"></span>
+  </div>
+
+  <div class="text-content">
+    <h1 style="font-family: 'Dancing Script', cursive; color: #ff5252; text-align: center; font-size: 3em;">
+      LINO & MAVIES
+    </h1>
+    <p>
+      Desde o momento em que você entrou na minha vida, tudo ganhou mais cor e sentido. Você é a razão do meu sorriso mais sincero, o motivo pelo qual acredito que o amor verdadeiro existe. Seu jeito único de enxergar o mundo, sua força e sua doçura me encantam a cada dia.
+      Ao seu lado, tudo se torna mais leve e belo. Você é minha paz em meio ao caos, minha inspiração diária, o amor que eu sempre sonhei encontrar. Eu amo cada detalhe seu, desde o brilho dos seus olhos até a maneira como faz meu coração disparar com um simples toque.
+      Quero ser seu porto seguro, sua alegria constante, a pessoa com quem você sempre poderá contar. Meu amor por você é imenso, verdadeiro e eterno. Obrigado por ser a pessoa incrível que você é e por iluminar minha vida com sua presença.
+      Com todo o meu coração,
+      Seu Lino!
+    </p>
+  </div>
+
+  <div class="counter">
+    <h2>Compartilhando momentos há</h2>
+    <div class="time-block">
+      <div id="years"></div><span>ano</span>
+      <div id="months"></div><span>meses</span>
+      <div id="weeks"></div><span>semanas</span>
+      <div id="days"></div><span>dias</span>
+      <div id="hours"></div><span>horas</span>
+      <div id="minutes"></div><span>minutos</span>
+      <div id="seconds"></div><span>segundos</span>
+    </div>
+  </div>
+
+  <audio id="background-music" autoplay loop>
+    <source src="./song/ANAVITÓRIA, Lagum - universo de coisas que eu desconheço (1_2).mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
+
+  <div id="hearts-container"></div>
+
+  <!-- Botão de Play/Pause -->
+  <div class="music-control">
+    <button id="play-pause-btn">Tocar Música</button>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
