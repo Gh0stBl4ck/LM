@@ -33,7 +33,7 @@ h1 {
     .carousel img {
   width: 100%; /* A largura da imagem será ajustada para preencher o contêiner */
   height: 300px; /* Defina uma altura fixa para as imagens */
-  object-fit: cover; /* Mantém a proporção e preenche o contêiner */
+  object-fit: contain; /* Mantém a proporção e preenche o contêiner */
   border-radius: 10px; /* Se você quiser bordas arredondadas */
 }
 
