@@ -24,11 +24,8 @@ h1 {
 }
 
 .carousel {
-  width: 100%; /* Ou defina um tamanho fixo se necessário */
-  max-width: 600px; /* Define o limite máximo de largura */
-  margin: 0 auto; /* Centraliza o carrossel */
-  overflow: hidden; /* Garante que o conteúdo excedente não apareça */
-
+ display: flex;
+transition: transform 0.6s ease-in-out; /* Transição suave *
 
 }
 
