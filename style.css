@@ -30,10 +30,13 @@ h1 {
 }
 
 .carousel-img {
-    width: 100%; /* Exibe uma imagem por vez */
-    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
-    display: block;
-    border-radius: 10px;
+    .carousel img {
+  width: 100%; /* A largura da imagem será ajustada para preencher o contêiner */
+  height: 300px; /* Defina uma altura fixa para as imagens */
+  object-fit: cover; /* Mantém a proporção e preenche o contêiner */
+  border-radius: 10px; /* Se você quiser bordas arredondadas */
+}
+
     
 }
 
