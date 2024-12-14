@@ -31,9 +31,9 @@ transition: transform 0.6s ease-in-out; /* Transição suave *
 
 .carousel-img {
   width: 100%; /* A largura da imagem será ajustada para preencher o contêiner */
-  height: 300px; /* Defina uma altura fixa para as imagens */
+  height: 450px; /* Defina uma altura fixa para as imagens */
   object-fit: cover; /* Mantém a proporção e preenche o contêiner */
-  border-radius: 10px; /* Se você quiser bordas arredondadas */
+  border-radius: 15px; /* Se você quiser bordas arredondadas */
 }
 
 
